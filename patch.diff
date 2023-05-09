@@ -1,0 +1,21 @@
+From 7fa433d964609945f0c31b417dcc183774eb330c Mon Sep 17 00:00:00 2001
+From: ping <leecom.3144@gmail.com>
+Date: Wed, 3 May 2023 10:17:24 +0900
+Subject: [PATCH] list.md
+
+---
+ 협력작업 | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 협력작업
+
+diff --git a/협력작업 b/협력작업
+new file mode 100644
+index 0000000..6551361
+--- /dev/null
++++ b/협력작업
+@@ -0,0 +1 @@
++이창용
+\ No newline at end of file
+-- 
+2.40.1.windows.1
+
