@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='http://openapi.seoul.go.kr:8088/(인증키)/xml/CardSubwayStatsNew/1/5/20151101'></script>
+</head>
+<body>
+    <script>
+        // XML JSON CSV
+
+        let arr = [
+         {    
+        사용일자 : '20230301',
+        노선명: '수인선',
+        역명 : '달월',
+        승차총승객수:62,
+        하차층승객수:61,
+        등록일자:'20230304'
+        
+         },
+        {}
+    ]
+    $.ajax({
+        url : 'CARD_SUBMAY_NONTH_20303.csv',
+        success : function(data) {
+            console.log(data)
+
+            console.log(data.length)
+           let array = data.split("\n");
+            console.log(array);
+            
+            
+            if(1 ==0) {
+                // 칼럼명
+                console.log("칼럼명", array[li])
+                let columnArray = array[i].spitt(",");
+                console.log(columnArray);
+
+
+            }
+            if(i != 0) {
+                let columnArray = array[0].split(",")
+                let valueArray = array[i].split(",");
+                let obj = {};
+                for(let j in columnArray) {
+                objarray[columnArray[0].replaceAll("\"","")] = valueArray[j].replaceAll("',"); 
+                }
+                resultArray.push(obj);
+            }
+            
+            // console.log(resultArray);   
+
+           
+            // filter, map
+
+            // filter 2호선 // map 승차총승객, 하차총승객 >> xxx + 명,
+            // resultArray
+
+            
+            resultArray = resultArray
+            // .filter(obj => filter) => obj
+
+         
+        {
+                
+            }
+        }
+    })
+    </script>
+</body>
+</html>
